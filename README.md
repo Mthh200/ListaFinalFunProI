@@ -1,2 +1,2 @@
-# ListaFinalPOO
-Lista de exercícios final de POO
+# ListaFinalFunProI
+Lista de exercícios final de Fundamentos da Programação I
