@@ -18,24 +18,4 @@ function calcDelta(){
     document.body.innerHTML += "<h3>O cálculo realizado será: X = (-"+b+" ∓ √"+
     delta+") / 2 . "+a+" <p></p>X₁ = "+x1.toFixed(2)+", X₂ = "+x2.toFixed(2)+"</h3>";
 
-/*
-    document.body.innerHTML += "<button id='btn'>Continuar</button>"
-    document.getElementById("btn").addEventListener("click", calcBhask()) */
-    /*
-    var btn = document.createElement("button");
-    btn.textContent = "Continuar";
-    btn.setAttribute('id', 'botao');
-    //btn.addEventListener("click", calcBhask()); */
-    /*
-    document.body.appendChild(btn);
-    document.getElementById("botao").addEventListener("click", alert()); */
-}
-
-function calcBhask(){
-    var x1 = (-b - delta**(1/2))/2*a;
-    var x2 = (-b + delta**(1/2))/2*a;
-
-    document.body.innerHTML += "<h2>Calculando Bháskara</h2>";
-    document.body.innerHTML += "<h3>O cálculo realizado será: X = -"+b+" ∓ √"+
-    delta+" / 2 . "+a+" <p></p>X₁ = "+x1+". X₂ = "+x2+"</h3>";
 }
